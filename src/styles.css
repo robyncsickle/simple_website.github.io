@@ -1,16 +1,128 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
   color: black;
+  background-color: #000;
+  background: linear-gradient(45deg, #fb6f92, #ff8fab, #ffb3c6, #ffc2d1);
+}
+
+#navbar {
+  background-color: #adc178;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #132a13;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #132a13;
+  color: #adc178;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+.about > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  font-weight: bold;
+  color: #132a13;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.skills-section {
+  background: #adc178;
+  color: #132a13;
+
+  margin: auto;
+  width: 50%;
+  border: 3px solid #132a13;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.skills-section h1 {
+  text-align: center;
+  color: #132a13;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #adc178;
+  padding: 10px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+.project-section {
+  padding: 20px;
+}
+.weather-app {
+  text-decoration: none;
+  color: #132a13;
+}
+
+#weather-app a:hover {
+  background-color: #132a13;
+  color: #adc178;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #132a13;
+  color: #adc178;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ff8fab;
+}
+
+footer a:hover {
+  background-color: #ff8fab;
+  color: #132a13;
 }

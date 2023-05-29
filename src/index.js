@@ -1,11 +1,10 @@
+var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "30px 10px";
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("navbar").style.top = "-50px";
   }
-}
+  prevScrollpos = currentScrollPos;
+};

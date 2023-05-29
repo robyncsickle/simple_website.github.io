@@ -14,7 +14,6 @@
     </head>
     <body>
       <div id="navbar">
-        <a href="#default" id="logo">CompanyLogo</a>
         <div id="navbar-right">
           <a href="#about">About</a>
           <a href="#skills-section">Skills</a>
@@ -22,31 +21,66 @@
           <a href="#contact">Contact</a>
         </div>
       </div>
+      <section id="about" class="about">
+        <h1>Robyn Sickle Portfolio</h1>
+        <p>Web Devolper in training</p>
+      </section>
+      <br />
       <section id="skills-section" class="skills-section">
-        <h1>Hey I am Robyn</h1>
-        <p>A Web Developer</p>
-      </section>
-
-      <section id="projects">
-        <h2 class="project-title">These are some of my Projects</h2>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-            alt="project"
-          />
-          <p class="project-title">Tribute Page</p>
-        </a>
-      </section>
-
-      <section id="contact">
-        <div class="contact-section-header">
-          <h2>Connect With Me</h2>
+        <h1>Skills</h1>
+        <div class="flex-container">
+          <div class="skills-1">
+            <ul>
+              <li>Javascripts</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="skills-s">
+            <ul>
+              <li>Problem Sovlving</li>
+              <li>Communication</li>
+              <li>Critical Thinking</li>
+            </ul>
+          </div>
         </div>
+      </section>
+      <br />
+      <section id="projects" class="project-section">
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <a
+                id="weather-app"
+                class="weather-app"
+                href="https://main--playful-buttercream-362655.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  src="src/Screenshot 2023-05-29 163514.jpg"
+                  alt="sun-and-clouds"
+                  style="width: 100%"
+                />
+                <h3>Weather App</h3>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="#" />
+              <h3>More to come</h3>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="#" />
+              <h3>More to come</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <footer>
         <div class="contant-section-links">
           <a
             id="profile-link"
@@ -55,8 +89,23 @@
             class="btn contact-details"
             ><i class="fab fa-github"></i> GitHub</a
           >
+          <a
+            id="profile-link"
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a
+            id="profile-link"
+            href="https://www.facebook.com"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-facebook"></i> Facebook</a
+          >
+          <p class="contact">Email: contactrobyn@fake.com</p>
         </div>
-      </section>
+      </footer>
       <script src="src/index.js"></script>
     </body></html
 ></DOCTYPE>
