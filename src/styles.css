@@ -46,7 +46,8 @@ body {
 #welcome img {
   height: 250px;
   width: 250px;
-  border-radius: 4px;
+  border-radius: 5%;
+  border: #132a13 solid 3px;
 }
 
 #welcome h1 {
