@@ -5,7 +5,7 @@ body {
   line-height: 1.4;
   color: black;
   background-color: #000;
-  background: linear-gradient(45deg, #fb6f92, #ff8fab, #ffb3c6, #ffc2d1);
+  background: linear-gradient(45deg, #fb6f92, #ff8fab, #ff527d);
 }
 
 #navbar {
@@ -34,6 +34,7 @@ body {
 .welcome-container {
   position: relative;
   top: 30px;
+  left: 40px;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -45,6 +46,7 @@ body {
 #welcome img {
   height: 250px;
   width: 250px;
+  border-radius: 4px;
 }
 
 .welcome > p {
