@@ -3,8 +3,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
-  color: black;
-  background-color: #000;
   background: linear-gradient(45deg, #fb6f92, #ff8fab, #ff527d);
 }
 
@@ -13,10 +11,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0.3s;
 }
 
-/* Style the navbar links */
 #navbar a {
   float: left;
   display: block;
@@ -41,6 +37,7 @@ body {
   column-gap: 5px;
   padding: 20px;
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 #welcome img {
@@ -68,7 +65,7 @@ body {
 .about {
   border: 3px solid #132a13;
   border-radius: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .about p {
